@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Enroll / Contact – Mirevo German Academy</title>
+<meta name="description" content="Enroll or enquire. Call 93226 10554 or message on WhatsApp.">
+<link rel="icon" href="logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+<header><div class="wrap">
+  <a class="brand" href="Index.html"><img src="logo.png" alt="Mirevo German Academy logo"><span>MIREVO<small>GERMAN ACADEMY</small></span></a>
+  <button class="burger" aria-label="Menu" aria-expanded="false">☰</button>
+  <nav aria-label="Main"><a href="Index.html">Home</a><a href="Courses.html">Courses</a><a href="German.html">German A1–B2</a><a href="About.html">About</a><a href="Contact.html" class="act">Contact</a><a class="btn" style="padding:10px 20px;min-height:44px" href="Contact.html">Enroll Now</a></nav>
+</div></header>
+<main>
+<section class="phero"><div class="wrap"><div class="eyebrow">Enroll now</div><h1>Start learning this week</h1><p>Call, WhatsApp or fill the form. We reply with batch timings and admission steps.</p></div></section>
+<section id="enquire" style="background:var(--card);border-block:1px solid var(--line)"><div class="wrap enq">
+  <div class="rv"><div class="eyebrow">Enquiry</div><h2>Start learning this week</h2><p class="mute" style="margin:12px 0 22px">Fill the form and we will reply on WhatsApp with batch timings and enrollment steps. Or contact us directly.</p>
+    <div class="contact">
+      <a href="tel:+919322610554"><i>📞</i><span>Call 93226 10554<br><small class="mute">Enquiry and admissions</small></span></a>
+      <a href="https://wa.me/919322610554?text=Hello%20Mirevo%20German%20Academy%2C%20I%20want%20to%20enquire%20about%20the%20course." target="_blank" rel="noopener"><i>💬</i><span>Chat on WhatsApp<br><small class="mute">Quick reply</small></span></a>
+      <a href="https://www.instagram.com/mirevo_german_academy/" target="_blank" rel="noopener"><i>📸</i><span>@mirevo_german_academy<br><small class="mute">Follow us on Instagram</small></span></a>
+    </div>
+  </div>
+  <form id="f" class="rv" novalidate>
+    <h3 style="margin-bottom:4px">Enroll or enquire</h3>
+    <label for="nm">Full name</label><input id="nm" autocomplete="name" placeholder="Your name">
+    <label for="ph">Mobile number</label><input id="ph" type="tel" inputmode="numeric" pattern="[6-9][0-9]{9}" maxlength="10" autocomplete="tel" placeholder="10-digit number">
+    <label for="co">Course</label>
+    <select id="co"><option>German A1 to B2 (₹5,999)</option><option>German A1</option><option>German A2</option><option>German B1</option><option>German B2</option><option>German C1 / C2</option><option>Spanish</option><option>French</option><option>English</option><option>IELTS</option><option>OET</option><option>DHA</option></select>
+    <label for="gl">Your goal</label>
+    <select id="gl"><option>Study abroad</option><option>Work abroad</option><option>Immigration</option><option>Learning for fun / career</option></select>
+    <label for="ms">Message (optional)</label><textarea id="ms" rows="2" placeholder="Preferred batch time, questions..."></textarea>
+    <div class="err" id="err" role="alert"></div>
+    <button class="btn wa" style="width:100%" type="submit">💬 Send on WhatsApp</button>
+    <p class="mute" style="font-size:.85rem;margin:10px 0 0;text-align:center">Your enquiry opens in WhatsApp. Nothing is sent until you tap send.</p>
+  </form>
+</div></section>
+</main>
+<footer>
+  <b>Mirevo German Academy</b><p style="margin:6px 0">Learn German. Build Future. <span class="fl fl-de" role="img" aria-label="Germany"></span></p>
+  <p>📞 <a href="tel:+919322610554">+91 93226 10554</a> · <a href="https://www.instagram.com/mirevo_german_academy/" target="_blank" rel="noopener">Instagram</a></p>
+  <p style="font-size:.85rem;margin:0">© <span id="yr"></span> Mirevo German Academy. All rights reserved.</p>
+</footer>
+<div class="bar"><a class="c" href="tel:+919322610554">📞 Call</a><a class="w" href="https://wa.me/919322610554" target="_blank" rel="noopener">💬 WhatsApp</a><a class="e" href="Contact.html">Enroll</a></div>
+<script src="Script.js"></script>
+</body>
+</html>
